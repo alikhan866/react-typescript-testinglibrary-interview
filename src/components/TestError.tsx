@@ -6,7 +6,7 @@ const TestError = (): JSX.Element => {
 
   return (
     <div>
-      <p>Looks good</p>
+      <p data-testid="errorTest">Looks good</p>
     </div>
   );
 };
